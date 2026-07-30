@@ -44,7 +44,7 @@ jobs:
 
           claude_args: |
             --allowedTools "Read,Grep,Glob,Write,Bash(gh issue view:*),Bash(gh issue edit:*),Bash(gh issue comment:*),Bash(gh label list:*),Bash(gh search issues:*),Bash(gh api:*)"
-            --max-turns 25
+            --max-turns 50
 
           prompt: |
             You are triaging a GitHub issue on this Tetris repository (vanilla JS, no build/test tooling —

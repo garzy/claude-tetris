@@ -1,0 +1,18 @@
+# Issue triage label taxonomy.
+# Format: name|color|description  (parsed by .github/scripts/ensure-labels.sh)
+# Keep exactly one `type:*` and one `priority:*` per issue; `area:*` may repeat.
+type:bug|d73a4a|Something isn't working as expected
+type:feature|a2eeef|New functionality or improvement
+type:question|d876e3|A question or request for clarification
+type:docs|0075ca|Documentation (README, CLAUDE.md)
+type:chore|fef2c0|Maintenance, refactor, or tooling
+area:gameplay|1d76db|Game logic: pieces, rotation, collisions, locking
+area:rendering|5319e7|Canvas drawing, ghost piece, next-piece preview
+area:input|0e8a16|Keyboard handling and input events
+area:scoring|c2e0c6|Scoring, line clears, levels, drop speed
+area:ui|bfd4f2|HTML/CSS, HUD, overlays
+area:build|ededed|Workflows, CI, repo configuration
+priority:high|b60205|Blocks the game or breaks a core mechanic
+priority:medium|fbca04|Important but not blocking
+priority:low|c5def5|Cosmetic or nice-to-have
+needs-info|e4e669|Not enough information to diagnose yet
